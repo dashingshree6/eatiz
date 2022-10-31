@@ -1,0 +1,34 @@
+.serviesContainer {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 10%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+
+.leftSer {
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-between; */
+    align-items:center;
+}
+
+.rect {
+    background-color: #fe043c;
+    width: 34px;
+    height: 85px;
+}
+
+.rectServices {
+    font-size: 40px;
+    color: #2e266f;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+}
+
+.content {
+    font-family: Poppins, sans-serif;
+    color: gray;
+}
