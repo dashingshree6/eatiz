@@ -1,0 +1,81 @@
+.footerCont {
+    background-color: #ffedde;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: max-content;
+}
+
+.footerLeft {
+    display:flex;
+    gap: 1rem;
+}
+
+/* .footerLeft1 {
+    display:flex;
+    align-items: flex-start;
+} */
+
+.footerLeft2 {
+font-family: Poppins, sans-serif;
+color: gray;
+margin-bottom: 10px; 
+}
+
+.rect1 {
+    background-color: #fe043c;
+    width: 25px;
+    height: 100px;
+}
+
+.dwnApp {
+    color: #2e266f;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+}
+
+.playstore {
+    cursor: pointer;
+}
+.playstore:hover {
+    opacity: 0.5;
+}
+
+.appstore {
+    cursor: pointer;
+}
+.appstore:hover {
+    opacity: 0.5;
+}
+
+.footerRight {
+    display: flex;
+}
+
+.veg1 {
+    z-index: 500;
+    position: relative;
+    margin-top: 150px;
+    margin-right: -250px;
+}
+
+.grp66 {
+    z-index: 100;
+    position: relative;
+    margin-top: 50px;
+}
+.productpage {
+    z-index: 9000;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: -100px;
+    height: fit-content;
+}
